@@ -1,5 +1,4 @@
 import serial.tools.list_ports
-
 connected = []
 while True:
     comlist = serial.tools.list_ports.comports()
